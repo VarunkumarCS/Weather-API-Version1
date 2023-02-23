@@ -3,6 +3,8 @@ import requests
 import time
 import matplotlib.pyplot as plt
 from pprint import pprint as pp
+import datetime 
+from datetime import datetime
 
 url = 'https://api.open-meteo.com/v1/forecast?latitude=40.71&longitude=-74.01&hourly=snowfall'
 r = requests.get(url)
@@ -41,6 +43,7 @@ for snow in snowfall:
 xaxis = dataobj['hourly']['time']
 yaxis = dataobj['hourly']['snowfall']
 
+xaxis = [datetime.fromisoformat(datestring) for datestring in xaxis]
 plt.figure(figsize=(15,10))
 
 plt.title('Generated in 0.42, download in 467 ms, time in GMT+0', fontsize=20, color='white')
@@ -49,6 +52,7 @@ plt.plot(xaxis, yaxis)
 plt.xlabel("<---------------------------------------------------------------- SNOWFALL ---------------------------------------------------------------->", size = 10, color = 'black')
 plt.ylabel("<---------------------------------------------- CM ---------------------------------------------->",size = 10, color = 'black')
 
+plt.xticks(rotation = 10)
 plt.tick_params(axis = 'x', colors = 'black')
 plt.tick_params(axis = 'y', colors = 'black')
 
