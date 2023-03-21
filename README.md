@@ -1,6 +1,7 @@
 MAIN OBJECTIVE - To get the information from the requested API and print the graph on the basis of that.
 
 VSC - Getting the data from an API of the city "NEW YORK".
+
 OUTPUT IN THE GRAPH:
 
 The Chances of Rainfall in the "NEW YORK" City
@@ -9,6 +10,7 @@ The Chances of Rainfall in the "NEW YORK" City
 
 
 Jupyter Notebook - Getting the data from an API of the city "TORONTO".
+
 OUTPUT IN THE GRAPH:
 
 The Chances of the snowfall in the "TORONTO"
