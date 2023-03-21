@@ -1,6 +1,6 @@
 MAIN OBJECTIVE - To get the information from the requested API and print the graph on the basis of that.
 
-VSC (weatherapiversion1.py && weatherapiversion3.py)- Getting the data from an API of the city "NEW YORK".
+VSC - Getting the data from an API of the city "NEW YORK"  (weatherapiversion1.py && weatherapiversion3.py)
 
 OUTPUT IN THE GRAPH:
 
@@ -9,7 +9,7 @@ The Chances of Rainfall in the "NEW YORK" City
  
 
 
-Jupyter Notebook (weatherapiversion1.ipynb)- Getting the data from an API of the city "TORONTO".
+Jupyter Notebook - Getting the data from an API of the city "TORONTO"  (weatherapiversion1.ipynb)
 
 OUTPUT IN THE GRAPH:
 
