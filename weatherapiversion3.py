@@ -50,7 +50,7 @@ plt.title('Generated in 0.24, download in 145ms, time in GMT+0', fontsize=20, co
 plt.plot(xaxis, yaxis)
 
 plt.xlabel("<---------------------------------------------------------------- RAIN ---------------------------------------------------------------->", size = 10, color = 'black')
-plt.ylabel("<---------------------------------------------- CM ---------------------------------------------->",size = 10, color = 'black')
+plt.ylabel("<---------------------------------------------- MM ---------------------------------------------->",size = 10, color = 'black')
 
 plt.xticks(rotation = 10)
 plt.tick_params(axis = 'x', colors = 'black')
